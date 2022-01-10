@@ -1,0 +1,100 @@
+font-face {
+    font-family: "Graphik", sans-serif ;
+    src: url("../fonts/GraphikRegular.otf");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+#header {
+    position: absolute;
+}
+#hero {
+    background: url("../img/Rectangle 9.png") no-repeat center/cover;
+    min-height: 100vh;
+
+}
+.nav-item {
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 28px;
+    /* identical to box height, or 187% */
+    margin: 0 15px;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* Light text */
+
+    color: #FFFFFF;
+}
+.navbar {
+    margin: 30px 0 0 150px
+}
+
+.text-title {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 74px;
+    line-height: 84px;
+    /* or 114% */
+    padding-top: 200px;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* Light text */
+
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+}
+.text-elem {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    /* or 143% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* Light text */
+
+    color: #FFFFFF;
+
+}
+.btn {
+    /* Primary */
+
+    background: #2091F9;
+    border-radius: 35px;
+    /* Button */
+
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding: 10px;
+    margin-left: 650px;
+
+    /* Light text */
+
+    color: #FFFFFF;
+
+}
+
+
